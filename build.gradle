@@ -13,6 +13,4 @@ test {
     outputs.upToDateWhen { false }
 }
 
-plugins {
-    id 'jacoco'
-}
+apply plugin: 'jacoco'
